@@ -1,5 +1,9 @@
 
 
+
+
+
+
 .button {
     text-decoration: none;
     
@@ -36,3 +40,8 @@
     box-shadow: 3px 3px 3px black;
     color: white;
   }
+
+  .button:active{
+    padding-top: -1px;
+    box-shadow: 1px 1px 1px black;
+} 
