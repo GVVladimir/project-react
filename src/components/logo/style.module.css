@@ -1,0 +1,10 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
+
+.logo img {
+  max-width: inherit;
+  border-radius: 50%;
+}

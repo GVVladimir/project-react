@@ -1,0 +1,24 @@
+.head{
+    padding-top: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+@media(max-width: 900px){
+    .head{
+        width: 600px;
+    }
+}
+
+
+@media(max-width: 700px){
+    .head{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        gap: 15px;
+    }
+}
