@@ -4,6 +4,7 @@
   padding: 2rem;
   text-align: center;
   background: rgb(170, 168, 168);
+
  
 }
 
@@ -12,6 +13,7 @@
   flex-direction: column; 
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 

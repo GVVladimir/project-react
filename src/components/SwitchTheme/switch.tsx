@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
+import style from './style.module.css'
 
 const SwitchTheme = () => {
   const currentTheme = useContext(ThemeContext);
@@ -15,7 +16,7 @@ const SwitchTheme = () => {
   };
   return (
     <div>
-      <button onClick={handelClick}>{currentTheme.btnText}</button>
+      <button className={style.button} onClick={handelClick}>{currentTheme.btnText}</button>
     </div>
   );
 };
