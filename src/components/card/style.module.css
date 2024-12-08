@@ -41,11 +41,18 @@
 @media(max-width: 555px){
   .card{
      justify-content: center;
+     padding-right: 0;
 }
 }
 
 @media(max-width: 420px){
   .card img{
      width: 200px;
+}
+}
+
+@media(max-width: 350px){
+  .card img{
+     width: 150px;
 }
 }
