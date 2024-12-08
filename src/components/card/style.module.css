@@ -1,6 +1,9 @@
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 15px 0;
-  max-width: 80%;
+ 
   display: flex;
   padding: 20px;
   box-shadow: 0 0 10px gray;
@@ -23,7 +26,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 400px;
+     margin-left: 10px;
+     margin-right: 10px;
       gap: 15px;
   }
 
@@ -32,4 +36,16 @@
     padding-right: 20px;
     border-radius: 15px;
   }
+}
+
+@media(max-width: 555px){
+  .card{
+     justify-content: center;
+}
+}
+
+@media(max-width: 420px){
+  .card img{
+     width: 200px;
+}
 }

@@ -1,0 +1,38 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?",
+      "title": "Просто информация",
+      "image": "image/foto1.jpg"
+    },
+
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?",
+      "title": "Просто информация",
+      "image": "image/foto1.jpg"
+    },
+
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?",
+      "title": "Просто информация",
+      "image": "image/foto2.jpg"
+    },
+
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?",
+      "title": "Просто информация",
+      "image": "image/foto3.jpg"
+    },
+
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?",
+      "title": "Просто информация",
+      "image": "image/foto4.jpg"
+    }
+  ]
+}

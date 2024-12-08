@@ -10,10 +10,9 @@ type ContextType = {
 
   btnText: string;
   setBtnText: Dispatch<React.SetStateAction<string>>;
-}
+};
 
 export const ThemeContext = createContext<ContextType | null>(null);
-
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -21,11 +20,9 @@ function App() {
 
   return (
     <div className={`container ${theme}`}>
-      <ThemeContext.Provider value={{ theme, setTheme, btnText, setBtnText }}>       
-        <Header />      
-        <Card />
-        <Card />
-        <Card />      
+      <ThemeContext.Provider value={{ theme, setTheme, btnText, setBtnText }}>
+        <Header />
+       <Card />
         <Footer />
       </ThemeContext.Provider>
     </div>

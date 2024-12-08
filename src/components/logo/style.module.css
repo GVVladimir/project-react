@@ -8,3 +8,10 @@
   max-width: inherit;
   border-radius: 50%;
 }
+
+
+@media(max-width: 466px){
+  .logo{
+      display: none;
+  }
+}

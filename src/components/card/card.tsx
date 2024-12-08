@@ -1,13 +1,19 @@
-import Foto_one from "../../../image/foto1.jpg";
-import style from './style.module.css'
+import card from "../data/project.json";
+import { Project } from "../types/index.ts";
+import style from "./style.module.css";
 
 const Card = () => {
   return (
-    <div className={style.card}>
-      <img src={Foto_one} alt="" />
-      <h2>Просто информация</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ducimus accusamus dolor ea voluptates ad voluptate tempore nemo magni, adipisci iste placeat error amet odit quo totam provident delectus porro?</p>
-    </div>
+    <section>
+      <h2>Про всякие мелочи</h2>
+      {card.projects.map((proj: Project) => (
+        <div key={proj.id} className={style.card}>
+          <img src={proj.image} alt="" />
+          <h2>{proj.title}</h2>
+          <p>{proj.description}</p>
+        </div>
+      ))}
+    </section>
   );
 };
 export default Card;
